@@ -57,7 +57,7 @@ try {
     	</html>
     	";
     }
-    //$mail->isSMTP();                                            //Send using SMTP
+    $mail->isSMTP();                                            //Send using SMTP
     $mail->Host       = 'smtp.gmail.com';
     $mail->SMTPAuth   = true;
     $mail->Username   = 'av.centro4@gmail.com';
