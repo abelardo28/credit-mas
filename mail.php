@@ -63,7 +63,7 @@ try {
     $mail->Username   = 'av.centro4@gmail.com';
     $mail->Password   = 'sistemas';
     $mail->SMTPSecure = 'tls';
-    $mail->Port       = 465;
+    $mail->Port       = 587;
     $mail->setFrom($_POST["email"], ($_POST["name"]) ? $_POST["name"] : 'Cliente');
     $mail->addAddress('av.centro4@gmail.com', 'Credit Mas');
     $mail->isHTML(true);
